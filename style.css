@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background: url(Blog-pages-.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    flex-direction: column;
+    
+
+
+}
+
+body h1{
+    text-align: center;
+    font-size: 65px;
+    color: white;
+}
+
+
+.first{
+   display: flex;
+   justify-content: space-evenly;
+   width: 100%;
+   height: 100vh;
+   align-items: center;
+}
+
+
+
+
+
+
+.left{
+    width: 25%;
+    height: 40vh;
+    background-color: rgb(64, 112, 115);
+    /* align-items: center; */
+    /* justify-content: center; */
+    text-align: center;
+    /* display: flex; */
+    /* flex-direction: column; */
+    border: 3px solid rgb(190, 13, 13);
+    border-radius: 5px;
+}
+
+.left h2{
+     color: white;
+     margin-top: 20px;
+}
+
+
+.left p{
+    width: 100%;
+    font-weight: 600;
+    color: white;
+    font-size: 17px;
+}
+
+.centre{
+    width: 35%;
+    height: 70vh;
+    /* background-color:black ; */
+    
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid red;
+    border-radius: 20px;
+    flex-wrap: wrap;
+    
+}
+
+
+
+.centre input{
+    /* padding: 10px; */
+    background-color: rgb(64, 112, 115);
+    border: none;
+    border-radius: 10px;
+    color: white;
+    margin-left: 20px;
+    width: 200px;
+    margin-top: 10px;
+    height: 50px;
+    padding-left:10px;
+
+
+    
+}
+
+
+
+
+
+
+
+
+
+
+::placeholder{
+    color: white;
+}
+
+button{
+    width: 52%;
+    padding: 10px;
+    background-color: rgb(202, 10, 10);
+    color: white;
+    border: none;
+    border-radius:10px;
+    font-weight:600;
+    height: 50px;
+    margin-left: 20px;
+    
+}
+
+.right{
+    width: 28%;
+    height: 45vh;
+    background-color: rgb(64, 112, 115);
+    /* align-items: center; */
+    /* justify-content: center; */
+    text-align: center;
+    /* display: flex; */
+    /* flex-direction: column; */
+    border: 3px solid rgb(190, 13, 13);
+    border-radius: 5px;
+}
+.right h2{
+    color: white;
+   font-weight: 600; 
+   margin-top: 20px;
+}
+
+
+.right p{
+   color: white;
+   font-weight: 600;
+   font-size: 17px;
+}
